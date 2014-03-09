@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+}
+
+.banner {
+    background: #f1f1f1;
+    background: -webkit-gradient(radial, 100 36, 0, 100 -40, 120, from(#fafafa), to(#f1f1f1)), #f1f1f1;
+    border-bottom: 1px solid #666;
+    border-color: #e5e5e5;
+    height: 71px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: 985;
+    min-width: 423px;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: -2px;
+    margin-left: 16px;
+    margin-top: 16px;
+}
+
+.content {
+    font-family: 'arial regular', arial, sans-serif;
+    font-size: 16px;
+    color: #262626;
+    position: relative;
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-top: 16px;
+    top: 72px;
+}
+.content div {
+    text-align: center;
+    padding: 12px;
+}
+
+div.title {
+    text-align: left;
+    font-size: 16pt;
+    font-weight: 600;
+}
+
+.message {
+    margin-top: 16px;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.info {
+    font-size: 11px;
+    margin-top: 6px;
+}

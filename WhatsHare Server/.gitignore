@@ -1,0 +1,6 @@
+syntax: glob
+*.class
+war/WEB-INF/classes
+war/WEB-INF/appengine-generated
+war/WEB-INF/lib/appengine-*
+.DS_Store
